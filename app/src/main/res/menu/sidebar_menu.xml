@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- List of users -->
+    <item
+        android:id="@+id/nav_users"
+        android:title="Users"
+        android:icon="@android:drawable/ic_menu_manage" />
+
+    <!-- Stock -->
+    <item
+        android:id="@+id/nav_stock"
+        android:title="Stock"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <!-- User profile -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@android:drawable/ic_menu_myplaces" />
+
+    <!-- Logout -->
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_lock_power_off" />
+</menu>
